@@ -1,0 +1,44 @@
+{
+    "name": "lighter",
+    "type": "light",
+    "colors": {
+        "editor.background": "#eff0f1",
+        "editor.foreground": "#303336",
+        "editor.lineHighlightBackground": "#e7edf3",
+        "editor.selectionHighlightBorder": "#ffffff",
+
+        "activityBar.background": "#242729",
+        "activityBar.foreground": "#bbc0c4",
+        "activityBarBadge.background": "#f2f3f3",
+
+        "statusBar.background": "#FFFFFF",
+        "statusBar.border": "#FFFFFF",
+        "statusBar.foreground": "#000000"
+    },
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#81C784",
+                "fontStyle": "italic"
+            }
+        
+        },
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#81C784",
+                "fontStyle": "italic"
+            }
+        
+        }
+    ]
+}   

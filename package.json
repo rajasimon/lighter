@@ -1,0 +1,38 @@
+{
+  "name": "lighter",
+  "version": "0.0.0",
+  "description": "The one you see in Stackoverflow code",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajasimon/lighter.git"
+  },
+  "keywords": [
+    "lighter",
+    "theme",
+    "markdown"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajasimon/lighter/issues"
+  },
+  "homepage": "https://github.com/rajasimon/lighter#readme",
+  "publisher": "rajasimon",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lighter",
+        "uiTheme": "vs",
+        "path": "./themes/lighter.json"
+      }
+    ]
+  }
+}
