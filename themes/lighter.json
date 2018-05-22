@@ -7,12 +7,12 @@
         "editor.lineHighlightBackground": "#e7edf3",
         "editor.selectionHighlightBorder": "#ffffff",
 
-        "activityBar.background": "#242729",
+        "activityBar.background": "#3b4045",
         "activityBar.foreground": "#bbc0c4",
         "activityBarBadge.background": "#f2f3f3",
 
-        "statusBar.background": "#FFFFFF",
-        "statusBar.border": "#FFFFFF",
+        "statusBar.background": "#f2f3f3",
+        "statusBar.border": "#f2f3f3",
         "statusBar.foreground": "#000000"
     },
     "tokenColors": [
@@ -23,22 +23,100 @@
                 "punctuation.definition.comment"
             ],
             "settings": {
-                "foreground": "#81C784",
+                "foreground": "#858C93",
+                "background": "#C5E1A5",
                 "fontStyle": "italic"
             }
-        
         },
         {
-            "name": "Comments",
+            "name": "Keywords, Punctuation",
             "scope": [
-                "comment",
-                "punctuation.definition.comment"
+                "keyword",
+                "keyword.control",
+                "storage.type",
+                "storage.modifier",
+                "punctuation.definition.parameters",
+                "punctuation.section.parens.begin",
+                "variable.parameter",
+                "variable.other.property",
+                "support.variable.property.dom",
+                "variable.other.object.property",
+                "punctuation.separator",
+                "punctuation.accessor",
+                "punctuation.definition.array"
             ],
             "settings": {
-                "foreground": "#81C784",
-                "fontStyle": "italic"
+                "foreground": "#101094"
             }
-        
+        },
+        {
+            "name": "Objects",
+            "scope": [
+                "variable.other.object",
+                "support.class.console",
+                "support.variable.dom",
+                "support.constant",
+                "entity.name.type.module",
+                "entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#2B91AF"
+            }
+        },
+        {
+            "name": "Constants",
+            "scope": [
+                "constant.numeric",
+                "constant.language",
+                "support.type.primitive"
+            ],
+            "settings": {
+                "foreground": "#F9A825"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string",
+                "constant.other.symbol"
+            ],
+            "settings": {
+                "foreground": "#7D2727"
+            }
+        },
+        {
+            "name": "Quotes",
+            "scope": [
+                "punctuation.definition.string.begin",
+                "punctuation.definition.string.end"
+            ],
+            "settings": {
+                "foreground": "#7D2727"
+            }
+        },
+        {
+            "name": "Method definitions",
+            "scope": [
+                "entity.name.function",
+                "support.function.dom",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#303336",
+                "fontStyle": "normal"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                "variable.language",
+                "variable.other.member",
+                "variable.other.readwrite",
+                "punctuation.definition.variable"
+            ],
+            "settings": {
+                "foreground": "#303336"
+            }
         }
     ]
 }   
